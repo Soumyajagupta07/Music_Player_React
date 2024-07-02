@@ -1,0 +1,9 @@
+.DurationShimmer{
+    width: 37px;
+    height: 24px;
+    background-color: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.01);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}

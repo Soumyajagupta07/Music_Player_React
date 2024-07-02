@@ -1,0 +1,63 @@
+.SongList{
+    position:absolute;
+    left: 280px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 104px;
+    width: 400px;
+    height: 48px;
+} 
+
+.SongList input {
+    width: 400px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 8px 16px 8px 16px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+}
+
+.SongList input::placeholder{
+    font-size: 18px;
+    font-family: "Inter";
+    color: rgba(255, 255, 255, 1);
+}
+
+.search_button{
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.icon {
+    height: 2rem;
+    width: 2rem;
+    padding: 4px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 1);
+    opacity: 40%;
+
+
+}
+
+.no_songs{
+    font-size: 18px;
+    font-family: "Inter";
+    color: rgba(255, 255, 255, 1);
+    width: 400px;
+}
+.song_container{
+    position:absolute;
+    top: 176px;
+    left: -16px;
+    width: 432px;
+}

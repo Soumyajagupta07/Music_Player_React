@@ -1,0 +1,49 @@
+.SongPlayingShimmer{
+    position: absolute;
+    top: 101px;
+    left: 874px
+}
+
+.Songname_shimmer{
+    margin: 0;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.01);
+    border-radius: 5px;
+}
+
+.Songartist_shimmer{
+    margin: 0;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.01);
+    border-radius: 5px;
+}
+.song_rect_shimmer{
+    margin-top: 32px;
+    height: 480px;
+    width: 480px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.01);
+}
+
+.info_rect{
+    margin-top: 32px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.01);
+    border-radius: 5px;
+}
+
+.info_rect2{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.01);
+    height: 50px;
+    border-radius: 8px;
+}

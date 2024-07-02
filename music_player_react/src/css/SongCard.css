@@ -1,0 +1,53 @@
+.SongCard{
+    width: 432px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 16px;
+}
+.SongCard:hover{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.song_info{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.song_img{
+    width: 48px;
+    height: 48px;
+    border-radius: 56px;
+}
+.name{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+}
+
+.artist{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.duration{
+    width: 37px;
+    height: 24px;
+    opacity: 60%;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+.active-card{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.inactive-card{
+    background-color: rgba(255, 255, 255, 0);
+}

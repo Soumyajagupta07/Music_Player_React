@@ -1,0 +1,25 @@
+.BodyHead{
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    top: 40px;
+    left: 280px;
+    height: 32px;
+    
+}
+
+.BodyHead button{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+.BodyHead p{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+.active{color: rgba(255,255,255,1);}
+
+.not-active{
+    color: rgba(255,255,255,0.4);
+}
