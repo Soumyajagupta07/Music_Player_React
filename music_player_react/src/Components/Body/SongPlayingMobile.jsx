@@ -5,8 +5,7 @@ import Box from '@mui/material/Box';
 import { SONG_API } from '../../utils/constants';
 import Slider from '@mui/material/Slider';
 import { FaBackward, FaCirclePause, FaCirclePlay, FaEllipsis, FaForward, FaVolumeHigh, FaVolumeXmark } from 'react-icons/fa6';
-import SongPlayingShimmer from '../Shimmer/SongPlayingShimmer';
-
+import SongPlayingMobileShimmer from '../Shimmer/SongPlayingMobileShimmer';
 
 const SongPlayingMobile = () => {
     const { id } = useParams();
@@ -81,7 +80,7 @@ const SongPlayingMobile = () => {
     }
 
     if (!currentSong) {
-        return <SongPlayingShimmer />;
+        return <SongPlayingMobileShimmer />;
     }
 
 
